@@ -2,6 +2,11 @@
 
 Official implementation for "Artifact Does Matter! Low-artifact High-resolution Virtual Try-On via Diffusion-based Warp-and-Fuse Consistent Texture" from CVPRW 2024. 
 
+<p align="center">
+    <img src="images/demo.gif">
+</p>
+
+[[Paper]](https://openaccess.thecvf.com/content/CVPR2024W/CVFAD/html/Tseng_Artifact_Does_Matter_Low-artifact_High-resolution_Virtual_Try-On_via_Diffusion-based_Warp-and-Fuse_CVPRW_2024_paper.html) | 
 [[Workshop Site]](https://sites.google.com/view/cvfad2024/accepted-papers)
 
 ## Environment
@@ -47,3 +52,15 @@ python CTF/test.py --dataroot=data/sample --warped_path=./result/CTW_unpair/warp
 
     Download and unzip [new_mask.zip](https://drive.google.com/file/d/1yjVqAAHtOc_UOZYRPdDTs41foZa_9qK8/view?usp=drive_link) into `{dataroot}/`
 3. Inference with above commands.
+
+## Citation
+```
+@InProceedings{Tseng_2024_CVPR,
+    author    = {Tseng, Chiang and Chen, Chieh-Yun and Shuai, Hong-Han},
+    title     = {Artifact Does Matter! Low-artifact High-resolution Virtual Try-On via Diffusion-based Warp-and-Fuse Consistent Texture},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2024},
+    pages     = {8240-8244}
+}
+```
